@@ -10,6 +10,10 @@ TWILIO_AUTH_TOKEN = ""
 TEXT_TO_NUMBER = ""
 TEXT_FROM_NUMBER = ""
 
+# Telegram details
+TELEGRAM_CHAT_ID =""
+TELEGRAM_AUTH_TOKEN = ""
+
 # Twitter credentials
 # Get these from https://developer.twitter.com/en/portal/projects-and-apps
 ACCESS_TOKEN = ""

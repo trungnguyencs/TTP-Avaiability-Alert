@@ -4,6 +4,7 @@ import sys
 from datetime import datetime, timedelta
 from twilioNotifier import sendSMS
 from twitterNotifier import postTweet
+from telegramNotifier import sendMessage
 
 # API URL
 APPOINTMENTS_URL = "https://ttp.cbp.dhs.gov/schedulerapi/slots?orderBy=soonest&limit=1&locationId={}&minimum=1"
